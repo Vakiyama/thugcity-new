@@ -1,0 +1,40 @@
+.info_nfts {
+    height: 900px;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.info_nfts_title {
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.info_nfts_description {
+    margin: 0;
+    font-family: 'Pixel Art';
+    font-size: 20px;
+    width: 800px;
+    font-weight: 100;
+    position: relative;
+}
+
+.info_nfts_showcase_top {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    margin-top: 6px;
+}
+
+.info_nfts_showcase_top_img {
+    height: 100%;
+    display: inline;
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+}

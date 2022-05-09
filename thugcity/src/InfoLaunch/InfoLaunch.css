@@ -1,0 +1,69 @@
+.info_launch {
+    height: 1200px;
+    position: relative;
+    color: #fff;
+}
+
+.info_launch_background_ak {
+    position: absolute;
+    z-index: 0;
+    left: -1000px;
+    top: -500px;
+}
+
+.info_launch_background_m16 {
+    position: absolute;
+    z-index: 0;
+    right: -1350px;
+    top: -900px;
+}
+
+.info_launch_title {
+    position: relative;
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 120px;
+    font-weight: 100;
+    top: 400px;
+}
+
+.info_launch_description {
+    width: fit-content;
+    position: relative;
+    margin: 0 auto;
+    top: 400px;
+    font-weight: 100;
+    font-family: "Pixel Art";
+    font-size: 30px;
+}
+
+.info_launch_learn_button {
+    background-image: linear-gradient(to right, rgb(56, 95, 236) 30%, rgb(130, 8, 211));
+    border-radius: 30px;
+    height: 50px;
+    width: 250px;
+    border: none;
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    top: 440px;
+    display: block;
+    color: #fff;
+}
+
+.info_launch_learn_button:hover {
+    outline: none;
+    cursor: pointer;
+    color: #C7C7C7;
+}
+
+.info_launch_span {
+    color: inherit;
+    font-family: 'Super Dario Regular';
+    font-weight: 100;
+    font-size: 32px;
+    position: relative;
+    bottom: 2px;
+}
+
+/* add drop shadow to span */

@@ -22,6 +22,13 @@ class InfoRelease extends Component {
                         <span className='info_release_calendar_span'>ADD TO CALENDAR</span>
                     </button>
                 </div>
+                <img className='info_release_vault_img' src="./vault-temp.png"/>
+                <div className="info_release_right_wrapper">
+                    <h1 className='info_release_right_title'>WHITELIST SALE: <span className='info_release_left_span'>JULY 13th/2022</span></h1>
+                    <button className='info_release_join_button'> 
+                        <span className='info_release_join_span'>HOW TO JOIN</span>
+                    </button>
+                </div>
             </div>
         );
     }

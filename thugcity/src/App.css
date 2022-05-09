@@ -15,7 +15,7 @@
 
 .App {
   background-color: #030219;
-  height: 400vh;
+  height: 1000vh;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 1060px, 1060px;

@@ -63,8 +63,8 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    top: -100px;
+    width: 70%;
+    top: -70px;
 }
 
 .background_squares_right {
@@ -82,11 +82,12 @@
 }
 
 .info_release_left_wrapper {
-    position: relative;
-    border: 1px solid red;
+    position: absolute;
     color: #fff;
     z-index: 1;
-    width: 450px;
+    width: 420px;
+    left: 80px;
+    top: 450px;
 }
 
 .info_release_left_title {
@@ -103,14 +104,15 @@
 .info_release_calendar_button {
     background-image: linear-gradient(to right, rgb(56, 95, 236) 10%, rgb(173, 115, 212));
     border-radius: 30px;
-    width: 300px;
-    height: 50px;
+    width: 270px;
+    height: 60px;
     border: none;
     outline: none;
     color: #fff;
     box-shadow: 0 5px 30px 0px rgb(130, 8, 211);
     position: relative;
-    left: 50px;
+    left: 65px;
+    bottom: 0px;
 }
 
 .info_release_calendar_button:hover {
@@ -121,7 +123,73 @@
 
 .info_release_calendar_span {
     color: inherit;
+    display: block;
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
     font-family: 'Pixel Art Bolded';
     font-size: 20px;
     font-weight: 600;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.info_release_vault_img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 350px;
+}
+
+.info_release_right_wrapper {
+    width: 460px;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+    right: 80px;
+    top: 450px;
+}
+
+.info_release_right_title {
+    font-family: 'Pixel Art Bolded';
+    font-size: 25px;
+}
+
+.info_release_right_span {
+    font-family: 'Pixel Art';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.info_release_join_button {
+    background-image: linear-gradient(to right, rgb(56, 95, 236) 10%, rgb(173, 115, 212));
+    border-radius: 30px;
+    width: 270px;
+    height: 60px;
+    border: none;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 5px 30px 0px rgb(130, 8, 211);
+    position: relative;
+    left: 70px;
+    bottom: 0px;
+}
+
+.info_release_join_button:hover {
+    outline: none;
+    color: #C7C7C7;
+    cursor: pointer;
+}
+
+.info_release_join_span {
+    color: inherit;
+    display: block;
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Pixel Art Bolded';
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #000;
 }
