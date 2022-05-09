@@ -1,0 +1,131 @@
+
+
+.header {
+    margin-right: 100px;
+    margin-left: 100px;
+    position: relative;
+}
+
+.header_title {
+    width: 420px;
+    position: relative;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-left: 0px;
+    top: 10px;
+    
+}
+
+.header_title_right_wrapper {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.header_title_logo_img {
+    margin: 0;
+    height: 122px;
+    position: relative;
+    top: 7px;
+}
+
+.header_title_h1 {
+    color: #fff;
+    font-size: 95px;
+    letter-spacing: 3px;
+    margin: 0;
+    position: relative;
+    left: 0px;
+    bottom:15px;
+    
+}
+
+
+.menu {
+    width: fit-content;
+    height: 15px;
+    display: inline-block;
+    margin-left: 130px;
+    position: absolute;
+    right: 300px;
+    top: 43px;
+}
+
+.menu li {
+    color: rgb(199, 199, 199);
+    display: inline;
+    float: left;
+}
+
+.menu li a {
+    margin-right: 65px;
+    font-size: 25px;
+    display: block;
+    position: relative;
+    top: 2px;
+    padding-bottom: 4px;
+}
+
+.menu li a:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.header_search_icon {
+    margin-left: 30px;
+    position: absolute;
+    right: 260px;
+    bottom: 46px;
+    width: 30px;
+}
+
+.header_connect_wallet_button {
+    width: 230px;
+    height: 55px;
+    background-image: linear-gradient(to right, rgb(56, 95, 236) 30%, rgb(130, 8, 211));
+    border: none;
+    border-radius: 40px;
+    position: absolute;
+    right: 0px;
+    bottom: 37px;
+    color: #fff;
+}
+
+.header_connect_wallet_button:hover {
+    cursor: pointer;
+    color:rgb(226, 226, 226);
+}
+
+.header_connect_wallet_button span {
+    display: block;
+    color: inherit;
+    font-family: "Super Dario Regular";
+    font-size: 27px;
+    position: relative;
+    
+}
+
+.menu_selected {
+    color: #fff;
+    border-bottom: 2px solid rgb(99,69,196);
+}
+
+/* landing non-menu */
+
+.landing {
+    overflow: hidden;
+}
+
+.landing_city_img {
+    width: 100%;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+.landing_discord_img {
+    position: absolute;
+    right: 0px;
+    top: 830px;
+    right: 100px;
+}
