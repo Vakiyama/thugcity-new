@@ -1,0 +1,127 @@
+.info_release {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 1000px;
+    position: relative;
+}
+
+.info_release_title_wrapper {
+    width: 480px;
+    height: 170px;
+}
+
+.info_release_title_wrapper_top {
+    height:50px;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+}
+
+.info_release_title_top_gradient {
+    width: 220px;
+    height: 15px;
+    background-image: linear-gradient(to right, rgb(56, 95, 236) 30%, rgb(130, 8, 211));
+    border-radius: 30px;
+    display: inline;
+    float:left;
+    position: relative;
+    top: 20px;
+}
+
+.info_release_title_top_subtitle {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Pixel Art';
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 8px;
+}
+
+.info_release_title_h1 {
+    color: #fff;
+    font-size: 155px;
+    letter-spacing: 4px;
+    margin: 0;
+    position: relative;
+    bottom: 60px;
+    font-weight: 100;
+}
+
+.info_release_divider_div {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 30px;
+    height: 3px;
+    background-image: linear-gradient(to right, rgb(56, 95, 236) 10%, rgb(130, 8, 211));
+}
+
+.info_release_background_thugcity_logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    top: -100px;
+}
+
+.background_squares_right {
+    position: absolute;
+    top: -350px;
+    left: -280px;
+    z-index: 0;
+}
+
+.background_squares_left {
+    position: absolute;
+    top: -180px;
+    right: -240px;
+    z-index: 0;
+}
+
+.info_release_left_wrapper {
+    position: relative;
+    border: 1px solid red;
+    color: #fff;
+    z-index: 1;
+    width: 450px;
+}
+
+.info_release_left_title {
+    font-family: 'Pixel Art Bolded';
+    font-size: 25px;
+}
+
+.info_release_left_span {
+    font-family: 'Pixel Art';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.info_release_calendar_button {
+    background-image: linear-gradient(to right, rgb(56, 95, 236) 10%, rgb(173, 115, 212));
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    box-shadow: 0 5px 30px 0px rgb(130, 8, 211);
+    position: relative;
+    left: 50px;
+}
+
+.info_release_calendar_button:hover {
+    outline: none;
+    color: #C7C7C7;
+    cursor: pointer;
+}
+
+.info_release_calendar_span {
+    color: inherit;
+    font-family: 'Pixel Art Bolded';
+    font-size: 20px;
+    font-weight: 600;
+}

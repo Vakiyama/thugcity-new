@@ -10,15 +10,18 @@
 
 @font-face {
   font-family: "Super Dario Regular";
-  src: url("./fonts/SuperDario-Regular.otf") format("truetype");
+  src: url("./fonts/SuperDario-Regular.ttf") format("truetype");
 }
 
 .App {
   background-color: #030219;
-  height: 300vh;
+  height: 400vh;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 1060px, 1060px;
   font-family: 'Super Dario Regular';
   position: relative;
+  overflow: hidden;
 }
+
+

@@ -11,6 +11,7 @@
     grid-template-areas: 
     "description links"
     "contact media";
+    z-index: 1;
 }
 
 .footer_description {
@@ -25,10 +26,9 @@
 
 .footer_description_title_logo_img {
     margin: 0;
-    height: 75px;
     position: relative;
     top: 7px;
-    height: 70px;
+    height: 87px;
 }
 
 .footer_description_title_right_wrapper {
@@ -41,16 +41,21 @@
 
 .footer_description_title_h1 {
     color: #fff;
-    font-size: 22px;
-    transform: scale(1, 1.4);
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Super Dario Regular';
+    position:relative;
+    bottom: 30px;
+    letter-spacing: 2px;
 }
 
 .footer_description_title_subtext_h1 {
     color: #A017E9;
-    font-size: 10px;
+    font-size: 22px;
     position: relative;
-    bottom: 8px;
-    right: 8px;
+    bottom: 80px;
+    right: 1px;
+    letter-spacing: 2px;
 }
 
 .footer_description_text_p {

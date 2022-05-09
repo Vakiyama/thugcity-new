@@ -7,10 +7,10 @@ class Footer extends Component {
             <div className='footer'>
                 <div className='footer_description'>
                     <div className='footer_description_title'>
-                        <img className='footer_description_title_logo_img' src="/temp-logo.PNG"/>
+                        <img className='footer_description_title_logo_img' src="/logo.PNG"/>
                         <div className='footer_description_title_right_wrapper'>
                             <h1 className='footer_description_title_h1'>THUGCITY</h1>
-                            <h1 className='footer_description_title_subtext_h1'>PLAY-2-EARN NFT GAME</h1>
+                            <h1 className='footer_description_title_subtext_h1'>WEB3 Elevation Labs</h1>
                         </div>
                     </div>
                     <div className='footer_description_text'>
@@ -56,12 +56,12 @@ class Footer extends Component {
                 <div className='footer_media'>
                     <h1 className='footer_media_title'>Follow Us</h1>
                     <div className='footer_media_bottom_wrapper'>
-                        <img className='footer_media_icon' src="/temp-insta-logo.PNG"/>
-                        <img className='footer_media_icon' src="/temp-facebook-logo.PNG"/>
-                        <img className='footer_media_icon' src="/temp-twitter-logo.PNG"/>
-                        <img className='footer_media_icon' src="/temp-youtube-logo.PNG"/>
+                        <img className='footer_media_icon' src="/insta-logo.PNG"/>
+                        <img className='footer_media_icon' src="/facebook-logo.PNG"/>
+                        <img className='footer_media_icon' src="/twitter-logo.PNG"/>
+                        <img className='footer_media_icon' src="/youtube-logo.PNG"/>
                         <div className='footer_media_divider'></div>
-                        <p className='footer_media_description'>Copyright © THUGCITY. All rights reserved.</p>
+                        <p className='footer_media_description'>Copyright © 2022 THUGCITY. All rights reserved.</p>
                     </div>
                 </div>
             </div>
