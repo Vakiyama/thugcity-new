@@ -10,7 +10,7 @@ class Landing extends Component {
                         <img className='header_title_logo_img' src="/logo.png"/>
                         <div className='header_title_right_wrapper'>
                           <h1 className='header_title_h1'>THUGCITY</h1>
-                          <h1 className='header_subtitle_h1'>Web3 Elevation Labs</h1>
+                          <h1 className='header_subtitle_h1'>Web3 ElevatIon Labs</h1>
                         </div>
                     </div>
                     <ul className='menu'>
