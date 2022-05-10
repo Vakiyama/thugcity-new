@@ -1,0 +1,103 @@
+.info_whitelist {
+    position: relative;
+    height: 1200px;
+}
+
+.info_whitelist_background_img {
+    position: absolute;
+    left: -900px;
+    z-index: 0;
+    height: 1300px;
+    top:100px;
+}
+
+.info_whitelist_title {
+    color: #fff;
+    font-weight: 100;
+    font-size: 100px;
+    position: relative;
+    margin: 0 auto;
+    width: fit-content;
+    line-height: 70px;
+    left: 200px;
+    top: 200px;
+}
+
+.info_whitelist_description {
+    color: #fff;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    left: 200px;
+    text-align: center;
+    top: 230px;
+    font-weight: 100;
+    font-family: 'Pixel Art';
+    font-size: 21px;
+}
+
+.info_whitelist_learn_button {
+    border: none;
+    background-image: linear-gradient(to right, rgb(56, 95, 236) 30%, rgb(130, 8, 211));
+    border-radius: 30px;
+    height: 50px;
+    width: 220px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    left: 190px;
+    top: 280px;
+    color: #fff;
+}
+
+.info_whitelist_learn_button:hover {
+    color: #C7C7C7;
+    cursor: pointer;
+}
+
+.info_whitelist_learn_span {
+    font-family: 'Super Dario Regular';
+    font-size: 30px;
+    color: inherit;
+    text-shadow: 2px 2px 4px #000;
+    position: relative;
+    bottom: 1px;
+}
+
+.info_whitelist_nft_showcase_wrapper {
+    width: 650px;
+    height: 450px;
+    position: relative;
+    margin: 0 auto;
+    left: 250px;
+    top: 350px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "left top"
+                         "left bottom";
+}
+
+.info_whitelist_nft_showcase_wrapper img {
+    background-color: #C400B1;
+    border-radius: 25px;
+}
+
+.info_whitelist_left {
+    grid-area: left;
+}
+
+.info_whitelist_top {
+    grid-area: top;
+    height: 200px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.info_whitelist_bottom {
+    grid-area: bottom;
+    height: 200px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 10px;
+}

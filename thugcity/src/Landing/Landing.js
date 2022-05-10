@@ -21,7 +21,6 @@ class Landing extends Component {
                             <li><a class="menu_item">Staking</a></li>
                             <li><a class="menu_item">Roadmap</a></li>
                     </ul>
-                    <img className="header_search_icon" src="/temp-magnify-icon.PNG"/>
                     <button className='header_connect_wallet_button'><span>CONNECT WALLET</span></button>
                 </div>
 

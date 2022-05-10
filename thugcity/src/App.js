@@ -5,6 +5,11 @@ import Footer from './Footer/Footer.js'
 import InfoRelease from './InfoRelease/InfoRelease.js'
 import InfoNFTS from './InfoNFTS/InfoNFTS.js'
 import InfoLaunch from './InfoLaunch/InfoLaunch.js'
+import InfoWhitelist from './InfoWhitelist/InfoWhitelist';
+import InfoGiveaway from './InfoGiveaway/InfoGiveaway';
+import InfoEvents from './InfoEvents/InfoEvents';
+import InfoPrizes from './InfoPrizes/InfoPrizes';
+import Roadmap from './Roadmap/Roadmap';
 
 function App() {
   return (
@@ -14,6 +19,11 @@ function App() {
       <InfoRelease/>
       <InfoNFTS/>
       <InfoLaunch/>
+      <InfoWhitelist/>
+      <InfoGiveaway/>
+      <InfoEvents/>
+      <InfoPrizes/>
+      <Roadmap/>
     </div>
   );
 }

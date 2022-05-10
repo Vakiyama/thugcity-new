@@ -1,0 +1,46 @@
+.info_events {
+    height: 1700px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.info_events_squares_left {
+    position: absolute;
+    left: -300px;
+    z-index: 0;
+}
+
+.info_events_squares_right {
+    position: absolute;
+    right: -300px;
+    z-index: 0;
+    top: -400px;
+}
+
+.info_events_title {
+    color: #fff;
+    position: relative;
+    font-size: 100px;
+    font-weight: 100;
+    z-index: 1;
+}
+
+.info_events_description {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Pixel Art';
+    font-weight: 100;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.info_events_wrapper {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+    z-index: 1;
+}

@@ -1,0 +1,96 @@
+.roadmap {
+    height: 5200px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.roadmap_infographic_img {
+    position: relative;
+    margin: 0 auto;
+    width: 1400px;
+    display: block;
+    z-index: 1;
+}
+
+.roadmap_background_logo_1 {
+    position: absolute;
+    right: -400px;
+    top: -500px;
+    height: 1800px;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.roadmap_squares_left_1 {
+    position: absolute;
+    left: -500px;
+    top: 800px;
+    z-index: 0;
+}
+
+.roadmap_squares_right_1 {
+    position: absolute;
+    right: -300px;
+    top: 800px;
+}
+
+.roadmap_squares_right_2 {
+    position: absolute;
+    right: -300px;
+    top: 2300px;
+}
+
+.roadmap_squares_left_2 {
+    position: absolute;
+    left: -400px;
+    top: 2700px;
+}
+
+.roadmap_m16 {
+    position: absolute;
+    right: -1500px;
+    top: 100px;
+    opacity: 0.4;
+}
+
+.roadmap_ak47 {
+    position: absolute;
+    left: -1200px;
+    top: 1100px;
+    opacity: 0.4;
+}
+
+.roadmap_car {
+    position: absolute;
+    left: -950px;
+    top:3200px;
+}
+
+.roadmap_background_logo_2 {
+    position: absolute;
+    top: 2200px;
+    right: -250px;
+    height: 2200px;
+    opacity: 0.3;
+}
+
+.roadmap_crate {
+    position: absolute;
+    top: 4000px;
+    right: 100px;
+    opacity: 0.3;
+}
+
+.roadmap_squares_right_3 {
+    position: absolute;
+    right: -300px;
+    top: 4150px;
+}
+
+.roadmap_safe {
+    position: absolute;
+    top: 4600px;
+    left: -100px;
+    opacity: 0.3;
+}

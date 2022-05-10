@@ -1,0 +1,70 @@
+.info_events_event {
+    height: 590px;
+    background-color: #BE13F1;
+    width: 450px;
+    border-radius: 25px;
+    color: #fff;
+    position: relative;
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info_events_event_img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+
+/* all these images need cropping */
+
+.info_events_event_bottom_wrapper {
+    background-color: #7F13AE;
+    position: absolute;
+    width: 90%;
+    height: 170px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    bottom: 50px;
+}
+
+.info_events_event_title {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.info_events_event_button {
+    position: relative;
+    margin: 0 auto;
+    width: 240px;
+    display: block;
+    top: 30px;
+    height: 55px;
+    background-image: linear-gradient(to right, #083EE9 60%, #138DEE);
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+}
+
+.info_events_event_button:hover {
+    cursor: pointer;
+    color: #C7C7C7;
+}
+
+.info_events_event_span {
+    color: inherit;
+    text-shadow: 2px 2px 4px #000;
+    font-family: 'Super Dario Regular';
+    font-size: 35px;
+    position: relative;
+    bottom: 3px;
+}

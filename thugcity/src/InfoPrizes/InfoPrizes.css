@@ -1,0 +1,107 @@
+.info_prizes {
+    height: 1200px;
+    position: relative;
+}
+
+.info_prizes_title {
+    color: #4F4E5E;
+    font-size: 220px;
+    margin: 0 auto;
+    font-family: 'Pixel Art Bolded';
+    width: fit-content;
+}
+
+.info_prizes_title_2 {
+    color: #4F4E5E;
+    font-size: 220px;
+    margin: 0 auto;
+    font-family: 'Pixel Art Bolded';
+    width: fit-content;
+    position: relative;
+    left: 175px;
+}
+
+.info_prizes_background_car {
+    position: absolute;
+    left: -500px;
+    top: 80px;
+}
+
+.info_prizes_giveaway_button {
+    border: none;
+    background-image: linear-gradient(to right, #3461FF 50%, #8454EB);
+    border-radius: 30px;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    display: block;
+    color: #fff;
+    display: inline;
+    float: left;
+}
+
+.info_prizes_button_wrapper button:hover {
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+.info_prizes_giveaway_span {
+    color: inherit;
+    font-family: 'Super Dario Regular';
+    font-size: 30px;
+    line-height: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.info_prizes_leaderboard_button {
+    border: none;
+    background-image: linear-gradient(to right, #3461FF 50%, #8454EB);
+    border-radius: 30px;
+    position: relative;
+    display: inline;
+    float: left;
+    height: 50px;
+    width: 250px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.info_prizes_leaderboard_span {
+    text-shadow: 2px 2px 4px #000;
+    font-size: 30px;
+    line-height: 20px;
+    font-family: 'Super Dario Regular';
+    color: inherit;
+}
+
+.info_prizes_discord_button {
+    background-image: linear-gradient(to right, #B700E5 50%, #8733F3);
+    border-radius: 30px;
+    height: 75px;
+    width: 525px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    top: 20px;
+    color: #fff;
+}
+
+.info_prizes_discord_span {
+    color: inherit;
+    font-family: 'Super Dario Regular';
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000;
+    position: relative;
+    bottom: 5px;
+}
+
+.info_prizes_button_wrapper {
+    width: 525px;
+    height: 150px;
+    z-index: 1;
+    margin: 0 auto;
+    left: 400px;
+    top:50px;
+    position: relative;
+}
+
