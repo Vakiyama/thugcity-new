@@ -6,6 +6,10 @@ class Roadmap extends Component {
         return (
             <div className='roadmap'>
                 <img className='roadmap_infographic_img' src="./roadmap-infographic.png"/>
+                <div className='roadmap_text' id="roadmap_text_1">
+                    <h1 className='roadmap_text_title'>PHASE: 001</h1>
+                </div>
+                {/* images below are out of document flow/absolute position */}
                 <img className='roadmap_background_logo_1'src="./logo-background-2.png"/>
                 <img className='roadmap_squares_left_1' src="./squares-right.png"/>
                 <img className='roadmap_squares_right_1' src="./squares-left.png"/>
