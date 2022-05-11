@@ -2,7 +2,7 @@
         position: relative;
         margin-left: 100px;
         margin-right: 100px;
-        height: 1100px;
+        height: 1300px;
         color: #fff;
     }
 
@@ -80,6 +80,10 @@
         transform: rotate(0deg);
     }
 
+    .faq_question_selection:hover {
+        cursor: pointer;
+    }
+
     .faq_question_selection_active {
         position: absolute;
         right: 35px;
@@ -87,6 +91,10 @@
         animation: rotate;
         animation-duration: 0.5s;
         transform: rotate(45deg);
+    }
+
+    .faq_question_selection_active:hover {
+        cursor: pointer;
     }
 
     @keyframes slideDown {

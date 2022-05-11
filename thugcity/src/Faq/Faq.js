@@ -42,43 +42,43 @@ class Faq extends Component {
                 <div className='faq_questions_wrapper'>
                 <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(0)}} className='faq_question_title'>WHAT IS THE POPULATION OF THUGCITY?</h1>
-                        <img className={this.isSelectedSquare(0)} src="./purple-rectangle.png"/>
+                        <img onClick={() => {this.toggleSelected(0)}} className={this.isSelectedSquare(0)} src="./purple-rectangle.png"/>
                         <p className={this.isSelected(0)}>10,000. 90% of the population consists of Thugs, and 10% Cops. There will be a very small amount of characters with unique abilities. More info will be disclosed at a later time.</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(1)}} className='faq_question_title'>HOW CAN I GET ON THE WHITELIST?</h1>
-                        <img className={this.isSelectedSquare(1)} src="./purple-rectangle.png"/>
+                        <img onClick={() => {this.toggleSelected(1)}} className={this.isSelectedSquare(1)} src="./purple-rectangle.png"/>
                         <p className={this.isSelected(1)}>We will be rewarding 2000 whitelist spots to members with the most contribution and dedication in the community, through weekly giveaways, contests and much more.</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(2)}} className='faq_question_title'>WHEN IS THE RELEASE DATE?</h1>
-                        <img className={this.isSelectedSquare(2)} src="./purple-rectangle.png"/>
+                        <img onClick={() => {this.toggleSelected(2)}} className={this.isSelectedSquare(2)} src="./purple-rectangle.png"/>
                         <p className={this.isSelected(2)}>We are on track to publicly release on July 14th. Whitelist release will occur in the days leading up. Reveal will happen a couple days after release, followed by the game within the same week.</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(3)}} className='faq_question_title'>WHAT IS THE MINT COST FOR NFTS?</h1>
-                        <img className={this.isSelectedSquare(3)} src="./purple-rectangle.png"/>
+                        <img onClick={() => {this.toggleSelected(3)}} className={this.isSelectedSquare(3)} src="./purple-rectangle.png"/>
                         <p className={this.isSelected(3)}>Each original NFT will mint for 0.1 ETH. You are able to purchase up to 15 at one time.</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(4)}} className='faq_question_title'>HOW DO I USE MY CHARACTER IN THUGCITY?</h1>
-                        <img className={this.isSelectedSquare(4)} src="./purple-rectangle.png"/>
+                        <img onClick={() => {this.toggleSelected(4)}} className={this.isSelectedSquare(4)} src="./purple-rectangle.png"/>
                         <p className={this.isSelected(4)}> Information regarding the staking and P2E aspect can be found on our website at thugcity.io (coming very soon...)</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(5)}} className='faq_question_title'>HOW IS EACH NFT CREATED?</h1>
-                        <img className={this.isSelectedSquare(5)} src="./purple-rectangle.png"/>
+                        <img onClick={() => {this.toggleSelected(5)}} className={this.isSelectedSquare(5)} src="./purple-rectangle.png"/>
                         <p className={this.isSelected(5)}>Every characters DNA is uniquely and randomly generated through an algorithm combining a variety of properties including their shirt, hair, background, eyes, face, glasses, hat, chain and more.</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(6)}} className='faq_question_title'>HOW CAN I APPLY TO JOIN THE THUGCITY TEAM?</h1>
-                        <img className={this.isSelectedSquare(6)} src="./purple-rectangle.png"/>
+                        <img onClick={() => {this.toggleSelected(6)}} className={this.isSelectedSquare(6)} src="./purple-rectangle.png"/>
                         <p className={this.isSelected(6)}>We will be hiring a couple of positions nearing the second half of 2022 and will always give the community a chance before we share job listings with the public. More info will be announced in the near future.</p>
                     </div>
                     <div className='faq_question_divider'></div>

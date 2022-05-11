@@ -16,6 +16,7 @@ class InfoFounders extends Component {
                     */}
                     <button className='info_founders_showcase_right'><span className='info_founders_showcase_right_span'>&#62;</span></button>
                 </div>
+                <button className='info_founders_more_button'><span className='info_founders_more_span'>More Info</span></button>
             </div>
         );
     }

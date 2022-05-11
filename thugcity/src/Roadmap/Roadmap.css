@@ -139,7 +139,7 @@
 #roadmap_text_3 {
     position: absolute;
     top: 1250px;
-    left: 250px;
+    left: 200px;
     width: 550px;
 }
 
@@ -212,23 +212,23 @@
 #roadmap_status_1 {
     position: absolute;
     top: 350px;
-    right: 300px;
+    right: 200px;
 }
 
 #roadmap_status_2 {
     position: absolute;
     top: 850px;
-    left: 300px;
+    left: 200px;
 }
 
 #roadmap_status_3 {
     position: absolute;
     top: 1340px;
-    right: 300px;
+    right: 200px;
 }
 
 #roadmap_status_4 {
     position: absolute;
     top: 1840px;
-    left: 300px;
+    left: 200px;
 }
