@@ -94,3 +94,141 @@
     left: -100px;
     opacity: 0.3;
 }
+
+.roadmap_text {
+    color: #fff;
+}
+
+.roadmap_text_title {
+    font-weight: 100;
+    font-size: 70px;
+}
+
+.roadmap_text ul li {
+    font-family: 'Pixel Art';
+    font-size: 24px;
+}
+
+.roadmap_text ul {
+    list-style: none;
+    position: relative;
+    bottom: 25px;
+}
+
+.roadmap_text ul li::before {
+    content: "\2022";
+    color: #9900EE;
+    text-shadow: 0px 3px 5px #7600b6;
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#roadmap_text_1 {
+    position: absolute;
+    top: 270px;
+    left: 200px;
+}
+
+#roadmap_text_2 {
+    position: absolute;
+    top: 700px;
+    right: 200px;
+}
+
+#roadmap_text_3 {
+    position: absolute;
+    top: 1250px;
+    left: 250px;
+    width: 550px;
+}
+
+#roadmap_text_4 {
+    position: absolute;
+    top: 1730px;
+    right: 200px;
+    width: 500px;
+}
+
+#roadmap_text_5 {
+    position: absolute;
+    top: 2250px;
+    left: 200px;
+    width: 500px;
+}
+
+#roadmap_text_6 {
+    position: absolute;
+    top: 2700px;
+    right: 200px;
+}
+
+#roadmap_text_7 {
+    position: absolute;
+    top: 3250px;
+    left: 200px;
+}
+
+#roadmap_text_8 {
+    position: absolute;
+    top: 3700px;
+    right: 200px;
+}
+
+#roadmap_text_9 {
+    position: absolute;
+    top: 4200px;
+    left: 200px;
+    width: 500px;
+}
+
+#roadmap_text_10 {
+    position: absolute;
+    top: 4700px;
+    right: 200px;
+    width: 500px;
+}
+
+.roadmap_status_div {
+    width: 460px;
+    height: 85px;
+    background-image: linear-gradient(to bottom right,#8E02B6, #8454EB);
+    border-radius: 50px;
+    box-shadow: 0 6px 30px 0px rgb(130, 8, 211);
+}
+
+.roadmap_status_h1 {
+    color: #fff;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 65px;
+    font-weight: 100;
+    text-shadow: 2px 2px 4px #000;
+    position: relative;
+    top: 0px;
+}
+
+#roadmap_status_1 {
+    position: absolute;
+    top: 350px;
+    right: 300px;
+}
+
+#roadmap_status_2 {
+    position: absolute;
+    top: 850px;
+    left: 300px;
+}
+
+#roadmap_status_3 {
+    position: absolute;
+    top: 1340px;
+    right: 300px;
+}
+
+#roadmap_status_4 {
+    position: absolute;
+    top: 1840px;
+    left: 300px;
+}

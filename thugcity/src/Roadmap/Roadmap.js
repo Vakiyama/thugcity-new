@@ -44,11 +44,13 @@ class Roadmap extends Component {
                     </ul>
                 </div>
                 <div className='roadmap_text' id="roadmap_text_5">
+                    <h1 className='roadmap_text_title'>PHASE: 005</h1>
                     <ul>
                         <li>Public Event we will attend and people can meet us there. To be announced!</li>
                     </ul>
                 </div>
                 <div className='roadmap_text' id="roadmap_text_6">
+                <h1 className='roadmap_text_title'>PHASE: 006</h1>
                     <ul>
                         <li>NFT Launch</li>
                         <li>$BILLS Token Launch</li>
@@ -57,6 +59,7 @@ class Roadmap extends Component {
                     </ul>
                 </div>
                 <div className='roadmap_text' id="roadmap_text_7">
+                <h1 className='roadmap_text_title'>PHASE: 007</h1>
                     <ul>
                         <li>Season 1 Rewards Allocated</li>
                         <li>Thug Leaders Released</li>
@@ -65,6 +68,7 @@ class Roadmap extends Component {
                     </ul>
                 </div>
                 <div className='roadmap_text' id="roadmap_text_8">
+                <h1 className='roadmap_text_title'>PHASE: 008</h1>
                     <ul>
                         <li>Season 2 Rewards Allocated</li>
                         <li>V2 In-Game Asset Launch</li>
@@ -73,6 +77,7 @@ class Roadmap extends Component {
                     </ul>
                 </div>
                 <div className='roadmap_text' id="roadmap_text_9">
+                <h1 className='roadmap_text_title'>PHASE: 009</h1>
                     <ul>
                         <li>Season 3 Giveaway</li>
                         <li>V3 In-Game Asset Launch</li>
@@ -81,12 +86,25 @@ class Roadmap extends Component {
                     </ul>
                 </div>
                 <div className='roadmap_text' id="roadmap_text_10">
+                <h1 className='roadmap_text_title'>PHASE: 010</h1>
                     <ul>
                         <li>VIP Club Owners of Thugs, V1, V2 and V3 Assets</li>
                         <li>Community driven in person event for VIP Club Owners</li>
                         <li>Implementation of Augmented Reality</li>
                         <li>Season 4 Giveaway</li>
                     </ul>
+                </div>
+                <div className='roadmap_status_div' id="roadmap_status_1">
+                    <h1 className='roadmap_status_h1'>MISSION COMPLETE</h1>
+                </div>
+                <div className='roadmap_status_div' id="roadmap_status_2">
+                    <h1 className='roadmap_status_h1'>IN PROGRESS...</h1>
+                </div>
+                <div className='roadmap_status_div' id="roadmap_status_3">
+                    <h1 className='roadmap_status_h1'>IN PROGRESS...</h1>
+                </div>
+                <div className='roadmap_status_div' id="roadmap_status_4">
+                    <h1 className='roadmap_status_h1'>[SCHEDULED]</h1>
                 </div>
                 {/* images below are out of document flow/absolute position */}
                 <img className='roadmap_background_logo_1'src="./logo-background-2.png"/>
