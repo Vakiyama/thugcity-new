@@ -13,6 +13,13 @@
   src: url("./fonts/SuperDario-Regular.ttf") format("truetype");
 }
 
+body {
+  min-width: 300px;
+  max-width: 1920px;
+  background-color: #030219;
+  position: relative;
+}
+
 .App {
   background-color: #030219;
   height: 1800vh;
@@ -21,6 +28,13 @@
   font-family: 'Super Dario Regular';
   position: relative;
   overflow: hidden;
+}
+
+.root {
+  position: relative;
+  margin: 0 auto;
+  width: 1920px;
+  display: block;
 }
 
 

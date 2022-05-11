@@ -10,6 +10,8 @@ import InfoGiveaway from './InfoGiveaway/InfoGiveaway';
 import InfoEvents from './InfoEvents/InfoEvents';
 import InfoPrizes from './InfoPrizes/InfoPrizes';
 import Roadmap from './Roadmap/Roadmap';
+import Faq from './Faq/Faq'
+import InfoFounders from './InfoFounders/InfoFounders';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <InfoEvents/>
       <InfoPrizes/>
       <Roadmap/>
+      <Faq/>
+      <InfoFounders/>
     </div>
   );
 }

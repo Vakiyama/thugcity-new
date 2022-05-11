@@ -1,0 +1,130 @@
+    .faq {
+        position: relative;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 1100px;
+        color: #fff;
+    }
+
+    .faq_question {
+        position: relative;
+    }
+
+    .faq_title {
+        font-weight: 100;
+        font-size: 150px;
+        position: absolute;
+        top: -10px;
+        margin: 0;
+    }
+
+    .faq_questions_wrapper {
+        width: 1400px;
+        position: absolute;
+        right: 50px;
+    }
+
+    .faq_question_divider {
+        background-image: linear-gradient(to right, #124BBA, #7A11B7);
+        height: 1px;
+    }
+
+    .faq_question_title {
+        font-size: 80px;
+        font-weight: 100;
+        -webkit-user-select: none;    
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin: 25px;
+    }
+
+    .faq_question_title:hover {
+        cursor: pointer;
+        color: #c7c7c7;
+    }
+
+    .faq_question_answer {
+        font-family: 'Pixel Art';
+        font-size: 27px;
+        animation: slideUp;
+        animation-duration: 0.5s;
+        animation-delay: 0s;
+        overflow: hidden;
+        max-height: 0;
+        margin: 0;
+        position: relative;
+        top: 2px;
+        width: 1300px;
+        left: 25px;
+    }
+
+    .faq_question_answer_active {
+        font-family: 'Pixel Art';
+        font-size: 27px;
+        animation: slideDown;
+        animation-duration: 1s;
+        overflow: hidden;
+        max-height: 100px;
+        width: 1300px;
+        position: relative;
+        left: 25px;
+    }
+
+    .faq_question_selection {
+        position: absolute;
+        right: 35px;
+        top: 25px;
+        animation: unRotate;
+        animation-duration: 0.5s;
+        transform: rotate(0deg);
+    }
+
+    .faq_question_selection_active {
+        position: absolute;
+        right: 35px;
+        top: 25px;
+        animation: rotate;
+        animation-duration: 0.5s;
+        transform: rotate(45deg);
+    }
+
+    @keyframes slideDown {
+        0% {
+            max-height: 0;
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+            max-height: 100px;
+        }
+    }
+
+    @keyframes slideUp {
+        0% {
+            opacity: 1;
+            max-height: 100px;
+        }
+        100% {
+            opacity: 0;
+            max-height: 0;
+        }
+    }
+
+    @keyframes unRotate {
+        0% {
+            transform: rotate(45deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    @keyframes rotate {
+        0% {
+            transform:rotate(0deg);
+        }
+        100% {
+            transform:rotate(45deg);
+        }
+    }
