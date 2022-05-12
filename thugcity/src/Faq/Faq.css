@@ -30,7 +30,7 @@
     }
 
     .faq_question_title {
-        font-size: 80px;
+        font-size: 60px; /* decreased from 80px */
         font-weight: 100;
         -webkit-user-select: none;    
         -moz-user-select: none;
@@ -46,7 +46,7 @@
 
     .faq_question_answer {
         font-family: 'Pixel Art';
-        font-size: 27px;
+        font-size: 20px; /* decreased from 27px */
         animation: slideUp;
         animation-duration: 0.5s;
         animation-delay: 0s;
@@ -61,7 +61,7 @@
 
     .faq_question_answer_active {
         font-family: 'Pixel Art';
-        font-size: 27px;
+        font-size: 20px; /* decreased from 27px */
         animation: slideDown;
         animation-duration: 1s;
         overflow: hidden;

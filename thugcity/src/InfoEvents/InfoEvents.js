@@ -13,16 +13,18 @@ class InfoEvents extends Component {
                 <img className='info_events_squares_left' src="./squares-right.png"/>
                 <img className='info_events_squares_right' src="./squares-left.png"/>
                 <h1 className='info_events_title'>THE EVENTS</h1>
-                <h1 className='info_events_description'>Information placed here. - placeholder text</h1>
+                <h1 className='info_events_description'>The events below depict the actions each Thug/Cop can take part of within ThugCity</h1>
                 <div className='info_events_wrapper'>
-                    <Event title="thugcity dealership" src="./hotel.png"/>
-                    <Event title="thugcity prison" src="./prison.png"/>
-                    <Event title="thugcity police station" src="./police-station.png"/>
+                    <Event title="thugcIty hotel" src="./hotel.png"/>
+                    <Event title="thugcIty polIce statIon" src="./police-station.png"/>
+                    <Event title="thugcIty bank" src="./bank.png"/>
+                    
                 </div>
                 <div className='info_events_wrapper'>
-                    <Event title="thugcity hotel" src="./hotel.png"/>
-                    <Event title="thugcity gun store" src="./gun-store.png"/>
-                    <Event title="thugcity bank" src="./bank.png"/>
+                    <Event title="thugcIty dealershIp" src="./hotel.png"/>
+                    <Event title="thugcIty gun store" src="./gun-store.png"/>
+                    <Event title="thugcIty prIson" src="./prison.png"/>
+                    
                 </div>
             </div>
         );

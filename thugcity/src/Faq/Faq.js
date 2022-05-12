@@ -43,7 +43,7 @@ class Faq extends Component {
                 <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(0)}} className='faq_question_title'>WHAT IS THE POPULATION OF THUGCITY?</h1>
                         <img onClick={() => {this.toggleSelected(0)}} className={this.isSelectedSquare(0)} src="./purple-rectangle.png"/>
-                        <p className={this.isSelected(0)}>10,000. 90% of the population consists of Thugs, and 10% Cops. There will be a very small amount of characters with unique abilities. More info will be disclosed at a later time.</p>
+                        <p className={this.isSelected(0)}>10,000. 90% of the population consists of Thugs, and 10% Cops.</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>
@@ -55,13 +55,13 @@ class Faq extends Component {
                     <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(2)}} className='faq_question_title'>WHEN IS THE RELEASE DATE?</h1>
                         <img onClick={() => {this.toggleSelected(2)}} className={this.isSelectedSquare(2)} src="./purple-rectangle.png"/>
-                        <p className={this.isSelected(2)}>We are on track to publicly release on July 14th. Whitelist release will occur in the days leading up. Reveal will happen a couple days after release, followed by the game within the same week.</p>
+                        <p className={this.isSelected(2)}>We are on track to publicly release in the middle to end of July. Whitelist release will occur in the days leading up. Reveal will happen a couple days after release, followed by the game within the same week.</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>
                         <h1 onClick={() => {this.toggleSelected(3)}} className='faq_question_title'>WHAT IS THE MINT COST FOR NFTS?</h1>
                         <img onClick={() => {this.toggleSelected(3)}} className={this.isSelectedSquare(3)} src="./purple-rectangle.png"/>
-                        <p className={this.isSelected(3)}>Each original NFT will mint for 0.1 ETH. You are able to purchase up to 15 at one time.</p>
+                        <p className={this.isSelected(3)}>Mint price will be released at a date closer to release.</p>
                     </div>
                     <div className='faq_question_divider'></div>
                     <div className='faq_question'>

@@ -63,7 +63,7 @@ class Roadmap extends Component {
                     <ul>
                         <li>Season 1 Rewards Allocated</li>
                         <li>Thug Leaders Released</li>
-                        <li>Aridropped Giveaways</li>
+                        <li>Airdropped Giveaways</li>
                         <li>Season 2 Launch</li>
                     </ul>
                 </div>
