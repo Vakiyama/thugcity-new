@@ -1,5 +1,5 @@
 .info_launch {
-    height: 1000px;
+    height: 1100px;
     position: relative;
     color: #fff;
 }
@@ -24,14 +24,14 @@
     width: fit-content;
     font-size: 120px;
     font-weight: 100;
-    top: 400px;
+    top: 300px;
 }
 
 .info_launch_description {
     width: fit-content;
     position: relative;
     margin: 0 auto;
-    top: 400px;
+    top: 300px;
     font-weight: 100;
     font-family: "Pixel Art";
     font-size: 30px;
@@ -39,16 +39,20 @@
 
 .info_launch_learn_button {
     background-image: linear-gradient(to right, rgb(56, 95, 236) 30%, rgb(130, 8, 211));
-    border-radius: 30px;
-    height: 50px;
-    width: 250px;
+    border-radius: 40px;
+    height: 65px;
+    width: 200px;
     border: none;
     z-index: 1;
     position: relative;
     margin: 0 auto;
-    top: 440px;
     display: block;
     color: #fff;
+    box-shadow: 0 4px 30px 0px rgb(130 8 211);
+    display: inline;
+    float:left;
+    margin: 40px;
+    top: 10px;
 }
 
 .info_launch_learn_button:hover {
@@ -65,6 +69,47 @@
     position: relative;
     bottom: 2px;
     text-shadow: 2px 2px 4px #000;
+    line-height: 20px;
+}
+
+.info_launch_button_wrapper {
+    width: fit-content;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.button_wrapper {
+    display:inline;
+    float: left;
+    position: relative;
+    top: 650px;
+    width: fit-content;
+    margin: 40px;
+}
+
+.info_launch_public_title {
+    font-size: 35px;
+    margin: 0;
+    position: relative;
+    top: 35px;
+    right: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.info_launch_public_span {
+    font-family: 'Pixel Art';
+    font-size: 20px;
+}
+
+.info_launch_safe_img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 460px;
+    opacity: 0.85;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* add drop shadow to span */

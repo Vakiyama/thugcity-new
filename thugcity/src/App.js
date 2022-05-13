@@ -12,18 +12,18 @@ import InfoPrizes from './InfoPrizes/InfoPrizes';
 import Roadmap from './Roadmap/Roadmap';
 import Faq from './Faq/Faq'
 import InfoFounders from './InfoFounders/InfoFounders';
+import InfoNews from './InfoNews/InfoNews'
 
 function App() {
   return (
     <div className="App">
       <Landing/>
       <Footer/>
-      <InfoRelease/>
+      <InfoEvents/>
       <InfoNFTS/>
       <InfoLaunch/>
       <InfoWhitelist/>
       <InfoGiveaway/>
-      <InfoEvents/>
       <InfoPrizes/>
       <Roadmap/>
       <Faq/>

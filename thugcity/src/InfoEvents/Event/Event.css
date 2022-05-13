@@ -1,7 +1,8 @@
 .info_events_event {
-    height: 590px;
-    background-color: #BE13F1;
-    width: 450px;
+    height: 370px;
+    background-color: rgb(127,19,174, 0.8);
+    
+    width: 370px;
     border-radius: 25px;
     color: #fff;
     position: relative;
@@ -23,10 +24,9 @@
 /* all these images need cropping */
 
 .info_events_event_bottom_wrapper {
-    background-color: #7F13AE;
     position: absolute;
     width: 90%;
-    height: 170px;
+    height: 120px;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -38,17 +38,19 @@
 .info_events_event_title {
     width: fit-content;
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 40px;
+    position: relative;
+    top: 60px;
     font-weight: 100;
 }
 
 .info_events_event_button {
     position: relative;
     margin: 0 auto;
-    width: 240px;
+    width: 200px;
     display: block;
-    top: 30px;
-    height: 55px;
+    top: 60px;
+    height: 40px;
     background-image: linear-gradient(to right, #083EE9 60%, #138DEE);
     border-radius: 30px;
     border: none;
@@ -64,7 +66,7 @@
     color: inherit;
     text-shadow: 2px 2px 4px #000;
     font-family: 'Super Dario Regular';
-    font-size: 35px;
+    font-size: 25px;
     position: relative;
-    bottom: 3px;
+    bottom:0px;
 }

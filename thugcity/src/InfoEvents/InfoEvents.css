@@ -1,5 +1,5 @@
 .info_events {
-    height: 1700px;
+    height: 1200px;
     position: relative;
     margin-left: 100px;
     margin-right: 100px;
@@ -22,18 +22,32 @@
     color: #fff;
     position: relative;
     font-size: 100px;
+    width: fit-content;
     font-weight: 100;
     z-index: 1;
+    margin: 0 auto;
+    display: block;
+    bottom: 60px;
 }
 
 .info_events_description {
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Pixel Art';
     font-weight: 100;
     position: relative;
     bottom: 50px;
     z-index: 1;
+    text-align: center;
+    margin: 0 auto;
+    width: 1050px;
+    line-height: 30px;
+}
+
+.info_events_description_span {
+    position: relative;
+    top: 15px;
+
 }
 
 .info_events_wrapper {
