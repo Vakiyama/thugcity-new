@@ -1,26 +1,28 @@
 .info_giveaway {
-    height: 1000px;
+    height: 800px;
     position: relative;
     z-index: 1;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .info_giveaway_wrapper {
-    width: 1400px; /* want to decrease to 1000px */
-    height: 600px;
+    width: 1200px; /* want to decrease to 1000px */
+    height: 430px;
     margin: 0 auto;
     position: relative;
-    top: 200px;
+    top: 100px;
 }
 
 .info_giveaway_switch_img {
     margin: 0 auto;
-    width: 1400px; /* want to decrease to 1000px */
+    width: 1200px; /* want to decrease to 1000px */
     z-index: 1;
 }
 
 .info_giveaway_crate-1 {
     position: absolute;
-    width: 550px;
+    width: 450px;
     bottom: -250px;
     right: 20px;
     z-index: 2;
@@ -28,8 +30,8 @@
 
 .info_giveaway_crate-2 {
     position: absolute;
-    width: 400px;
+    width: 350px;
     right: -50px;
-    bottom: -250px;
+    bottom: -260px;
     z-index: 3;
 }

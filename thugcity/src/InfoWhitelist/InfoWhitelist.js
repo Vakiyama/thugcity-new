@@ -15,8 +15,8 @@ class InfoWhitelist extends Component {
                     </button>
                 <div className='info_whitelist_nft_showcase_wrapper'>
                     <img className='info_whitelist_left' src="./136.png"/>
-                    <img className='info_whitelist_top' src="./136.png"/>
-                    <img className='info_whitelist_bottom' src="./136.png"/>
+                    <img className='info_whitelist_top' src="./3.png"/>
+                    <img className='info_whitelist_bottom' src="./42.png"/>
                 </div>
             </div>
         );

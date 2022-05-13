@@ -15,7 +15,8 @@
 
 .info_founders_showcase_wrapper {
     border: 1px solid red;
-    height: 600px;
+    height: 700px;
+    position: relative;
 }
 
 .info_founders_more_button {
@@ -42,4 +43,328 @@
     position: relative;
     bottom: 5px;
     text-shadow: 2px 2px 4px #000;
+}
+
+.info_founders_showcase_left {
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #8733F3, #B700E5);
+    color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 270px;
+    z-index: 1;
+}
+
+.info_founders_showcase_left:hover {
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+.info_founders_showcase_left_span {
+    font-family: 'Super Dario Regular';
+    color: inherit;
+    font-size: 70px;
+    position: relative;
+    bottom: 8px;
+    right: 2px;
+}
+
+.info_founders_showcase_right {
+    height: 80px;
+    width: 80px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #8733F3, #B700E5);
+    color: #fff;
+    position: absolute;
+    top: 270px;
+    right: 100px;
+    z-index: 1;
+}
+
+.info_founders_showcase_right:hover {
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+.info_founders_showcase_right_span {
+    font-size: 70px;
+    position: relative;
+    font-family: 'Super Dario Regular';
+    color: inherit;
+    bottom: 8px;
+    left: 2px;
+}
+
+.info_founders_showcase_image {
+    display: inline;
+    float: left;
+    width: 300px;
+    border: 1px solid white;
+    position: absolute;
+    top: 125px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.info_founders_showcase_image_wrapper {
+    border: 1px solid red;
+    height: 600px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    position: relative;
+    z-index: 0;
+}
+
+/* classnames for position in carousel */
+
+.info_founders_showcase_image_focused {
+    display: inline;
+    float: left;
+    width: 400px;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.showcase_1_left {
+    display: inline;
+    float: left;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: -800px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 1;
+    animation: slideLeft_left;
+    animation-duration: 1s;
+}
+
+.showcase_1_right {
+    display: inline;
+    float: left;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: -800px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 1;
+    animation: slideLeft_right;
+    animation-duration: 1s;
+}
+
+.showcase_focused_left {
+    display: inline;
+    float: left;
+    width: 400px;
+    position: absolute;
+    top: 85px;
+    animation: slideFocus_left;
+    animation-duration: 1s;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.showcase_focused_right {
+    display: inline;
+    float: left;
+    width: 400px;
+    position: absolute;
+    top: 85px;
+    animation: slideFocus_right;
+    animation-duration: 1s;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.showcase_3_right {
+    display: inline;
+    float: left;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 800px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 1;
+    animation: slideRight_right;
+    animation-duration: 1s;
+}
+
+.showcase_3_left {
+    display: inline;
+    float: left;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 800px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 1;
+    animation: slideRight_left;
+    animation-duration: 1s;
+}
+
+.showcase_left_hidden {
+    display: inline;
+    float: left;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: -1500px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0;
+    animation: slideLeftHidden;
+    animation-duration: 1s;
+}
+
+.showcase_right_hidden {
+    display: inline;
+    float: left;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    left: 1250px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0;
+    animation: slideRightHidden;
+    animation-duration: 1s;
+}
+
+ 
+
+/* keyframes for animated classes */
+
+@keyframes slideFocus_left {
+    0% {
+        width: 300px;
+        top: 120px;
+        left: 800px;
+    }
+
+    100% {
+        width: 400px;
+        left: 0px;
+        top: 85px;
+    }
+}
+
+@keyframes slideFocus_right {
+    0% {
+        width: 300px;
+        top: 120px;
+        left: -800px;
+    }
+
+    100% {
+        width: 400px;
+        left: 0px;
+        top: 85px;
+    }
+}
+
+@keyframes slideRight_left {
+    0% {
+        left: 1250px;
+    }
+    
+    100% {
+        left: 800px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight_right {
+    0% {
+        left: 0px;
+        width: 400px;
+        top: 85px;
+    }
+    
+    100% {
+        top: 120px;
+        left: 800px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft_left {
+    0% {
+        left: 0;
+        top: 85px;
+        width: 400px;
+    }
+    100% {
+        top: 120px;
+        width: 300px;
+        left: -800px;
+        opacity: 1;
+    }
+}
+
+@keyframes slideLeft_right {
+    0% {
+        left: -1500px;
+        opacity: 0;
+    }
+    100% {
+        left: -800px;
+    }
+}
+
+@keyframes slideLeftHidden {
+
+    0% {
+        left: -800px;
+        opacity: 1;
+    }
+
+    100% {
+        left: -1500px;
+        opacity: 0;
+    }
+}
+
+@keyframes slideRightHidden {
+
+    0% {
+        opacity: 1;
+        left: 800px;
+    }
+
+    100% {
+        left: 1250px;
+        opacity: 0;
+    }
 }
