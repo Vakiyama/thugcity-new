@@ -13,18 +13,18 @@ class InfoNFTS extends Component {
                     There will be 9,000 Thugs vs. 1,000 Cops. Who will run the city?
                 </h1>
                 <div className='info_nfts_showcase_top'>
-                    <img className='info_nfts_showcase_top_thug_img' src="./thugs/19.png"/>
-                    <img className='info_nfts_showcase_top_thug_img' src="./thugs/47.png"/>
                     <img className='info_nfts_showcase_top_thug_img' src="./thugs/21.png"/>
+                    <img className='info_nfts_showcase_top_thug_img' src="./thugs/19.png"/>
                     <img className='info_nfts_showcase_top_thug_img' src="./thugs/45.png"/>
+                    <img className='info_nfts_showcase_top_thug_img' src="./thugs/47.png"/>
                     <img className='info_nfts_showcase_top_thug_img' src="./thugs/37.png"/>
                 </div>
                 <div className='info_nfts_showcase_top'>
                     <img className='info_nfts_showcase_top_img' src="./cops/43.png"/>
-                    <img className='info_nfts_showcase_top_img' src="./cops/22.png"/>
+                    <img className='info_nfts_showcase_top_img' src="./cops/3.png"/>
                     <img className='info_nfts_showcase_top_img' src="./cops/18.png"/>
                     <img className='info_nfts_showcase_top_img' src="./cops/16.png"/>
-                    <img className='info_nfts_showcase_top_img' src="./cops/3.png"/>
+                    <img className='info_nfts_showcase_top_img' src="./cops/22.png"/>
                 </div>
             </div>
         );

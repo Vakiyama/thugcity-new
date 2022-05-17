@@ -23,9 +23,9 @@ function App() {
       <InfoNFTS/>
       <InfoLaunch/>
       <InfoWhitelist/>
+      <Roadmap/>
       <InfoGiveaway/>
       <InfoPrizes/>
-      <Roadmap/>
       <Faq/>
       <InfoFounders/>
     </div>
